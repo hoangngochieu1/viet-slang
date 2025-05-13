@@ -40,5 +40,5 @@ if slang_dict:
         vi_meaning = slang_dict[selected_slang]
         en_translation = translate_vi_to_en(vi_meaning, tokenizer, model)
 
-        st.markdown(f"### 📝 Nghĩa tiếng Việt:\n> {vi_meaning}")
-        st.markdown(f"### 🌐 English Translation:\n> {en_translation}")
+        st.markdown(f"### 📝 Nghĩa tiếng Việt:\n> {en_translation}")
+        st.markdown(f"### 🌐 English Translation:\n> {vi_meaning}")
